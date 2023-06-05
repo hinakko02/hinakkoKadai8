@@ -43,7 +43,7 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" id="Wy1-Ca-K3U"/>
                     <connections>
-                        <outlet property="redLabel" destination="ic6-hc-T3P" id="MPd-D7-CML"/>
+                        <outlet property="label" destination="ic6-hc-T3P" id="MPd-D7-CML"/>
                         <outlet property="slider" destination="fRa-bf-WMd" id="t3W-T7-1nr"/>
                     </connections>
                 </viewController>
@@ -62,7 +62,7 @@
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="akx-bb-ftf">
                                 <rect key="frame" x="18" y="134.33333333333334" width="357" height="31"/>
                                 <connections>
-                                    <action selector="changeButton:" destination="zkw-dd-Fmw" eventType="valueChanged" id="dzt-Oj-G92"/>
+                                    <action selector="changeSlider:" destination="zkw-dd-Fmw" eventType="valueChanged" id="dzt-Oj-G92"/>
                                 </connections>
                             </slider>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Qq-2h-w3c">
@@ -87,7 +87,7 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" id="zvA-9F-QfS"/>
                     <connections>
-                        <outlet property="greenLabel" destination="0Qq-2h-w3c" id="Ruv-lq-6NK"/>
+                        <outlet property="label" destination="0Qq-2h-w3c" id="Ruv-lq-6NK"/>
                         <outlet property="slider" destination="akx-bb-ftf" id="xdQ-jT-ECa"/>
                     </connections>
                 </viewController>
